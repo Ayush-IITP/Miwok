@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/placeHolder"
+        android:focusable="false" />
+    <TextView
+        android:id="@+id/miwok_view"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:paddingTop="8dp"
+        android:layout_toRightOf="@id/placeHolder"
+        android:paddingLeft="16dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        tools:text="lutti"
+        android:focusable="false"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_toRightOf="@id/placeHolder"
+        android:layout_below="@id/miwok_view"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        tools:text = "one"
+        android:id="@+id/eng_view"
+        android:focusable="false" />
+    <ImageButton
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/ic_play_arrow_black_24dp"
+        android:focusable="false"
+    />
+</RelativeLayout>
